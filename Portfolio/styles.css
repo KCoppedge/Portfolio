@@ -1,0 +1,27 @@
+body {
+    background-color: #282a36;
+}
+
+a {
+    color: #bd93f9;
+    font-size: 2rem;
+    margin-right: 10px;
+    text-decoration: none;
+}
+
+h1 {
+    color: #d9c0fc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 5rem;
+    text-align: center;
+}
+
+#navDiv {
+    
+    display: flex;
+    justify-content: end;
+}
+
+a:hover {
+    color: #d9c0fc;
+}
