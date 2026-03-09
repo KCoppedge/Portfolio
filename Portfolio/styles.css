@@ -1,5 +1,5 @@
 body {
-    background-color: #282a36;
+    background-color: #1e2029;
     margin: 0px;
     vertical-align: middle;
 }
@@ -15,7 +15,18 @@ h1 {
     color: #d9c0fc;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 5rem;
+    margin-top: 120px;
     text-align: center;
+
+}
+
+h2 {
+    color: #d9c0fc;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 3rem;
+    margin-top: 120px;
+    text-align: center;
+
 }
 
 a:hover {
@@ -30,10 +41,15 @@ a:hover {
 }
 
 h3#heroName {
-    color: #d9c0fc;
+    color: #bd93f9;
     font-family: 'Trebuchet MS', Arial, sans-serif;
     margin: 0;
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+h3#heroName:hover {
+    color: #d9c0fc
 }
 
 #navDiv nav {
@@ -70,4 +86,9 @@ h3#heroName {
 #projectBtn:hover {
     background-color: #5af78e;
     box-shadow: 0 0 15px #45e26c;
+}
+
+#projectEle {
+    display: flex;
+    justify-content: space-evenly;
 }
