@@ -4,7 +4,7 @@ html {
 }
 
 body {
-    background-color: #1e2029;
+    background-color: #14151b;
     margin: 0px;
     vertical-align: middle;
 }
@@ -69,9 +69,9 @@ h3 {
 }
 
 p {
-    color: #dcc9f8;
+    color: #e8e0f3;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 1.5rem;
+    font-size: 1 rem;
     text-align: center;
 
 }
@@ -84,6 +84,10 @@ p {
     width: 100%;
     max-width: 800px;
     margin: 80px auto;
+}
+
+#aboutMe p {
+    font-size: 1.3rem;
 }
 
 #selfImg {
@@ -202,12 +206,33 @@ h3#heroName:hover {
 }
 
 .card {
-    background-color: #2f3341;
+    font-size: 1.4rem;
+    background: #2F3341;
+    background: #2F3341;
+    background: linear-gradient(150deg,
+            #282a36 0%,
+            #343746 45%,
+            #44475a 100%);
     border: 0px solid black;
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
     width: fit-content;
+}
+
+
+.card p {
+    font-size: 1.1rem;
+}
+
+.cardImg {
+    border-radius: 10px;
+    border: 5px solid rgba(189, 147, 249, 0.3);
+    box-shadow: 0px 0px 15px black;
+    overflow: hidden;
+    margin-bottom: 10px;
+    width: 300px;
+    height: auto;
 }
 
 .underlineEle {
