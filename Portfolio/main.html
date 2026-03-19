@@ -25,6 +25,9 @@
                         <a href="mailto:kyle.f.coppedge@gmail.com" target="_blank">
                             <i class="fa-solid fa-envelope"></i>
                         </a>
+                        <button id="theme-toggle" aria-label="Toggle dark mode">
+                            <i class="fa-solid fa-moon" id="theme-icon"></i>
+                        </button>
                     </nav>
                 </div>
             </div>
@@ -37,8 +40,9 @@
         <div id="projectDiv">
             <button id="projectBtn"><a href="#projectEle">Projects</a></button>
         </div>
-        <div id="aboutMe">
+        <div id="aboutMe" class="reveal">
             <h3><span class="underlineEle">About Me</span></h3>
+
             <p>Hi! I'm a fresh guided self-taught Front-End Developer with a newfound passion for building good looking,
                 <span class="colorUtil">user-focused
                     web experiences</span>. Over the last six months, I've transitioned my novice abilities into a
@@ -46,14 +50,19 @@
                 for coding. When I'm not studying, I will typically enjoy a nice coffee with friends, or prepare
                 delicious meals for my peers.
             </p>
+            <div class="hero-skills">
+                <span class="skill-item"><i class="fa-brands fa-html5"></i> HTML5</span>
+                <span class="skill-item"><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                <span class="skill-item"><i class="fa-brands fa-js"></i> JavaScript</span>
+                <span class="skill-item"><i class="fa-brands fa-git-alt"></i> Git</span>
+            </div>
         </div>
-        <div id="projectEle">
+        <div id="projectEle" class="reveal">
             <div id="projectEle">
                 <div id="projectCard">
                     <div class="card">
-                        <h2 class="cardTitle">Placeholder #1</h2>
-                        <p>This is my template for my future projects! Lorem ipsum dolor sit amet consectetur,
-                            adipisicing elit.</p>
+                        <h2 class="cardTitle">Coming Soon</h2>
+                        <p>A Kitchen Inventory / Grocery Restock</p>
                     </div>
 
                     <div class="card">
@@ -73,6 +82,27 @@
                 </div>
             </div>
         </div>
+        <section id="contactSection">
+            <div class="contact-container">
+                <h3><span class="underlineEle">Contact Me</span></h3>
+                <p>I'm currently based in <span class="colorUtil">Medford, OR</span> and looking for my next challenge.
+                    Whether you have a question or just want to talk shop, my inbox is always open!</p>
+                <a href="mailto:kyle.f.coppedge@gmail.com" class="contact-btn">Email</a>
+            </div>
+        </section>
+        <footer id="mainFooter">
+            <div class="footer-content">
+                <p>© 2026 Kyle Coppedge | Built with <span class="colorUtil">Vanilla JavaScript</span> & CSS</p>
+                <div class="footer-links">
+                    <a href="#heroSection" class="back-to-top">Back to Top <i class="fa-solid fa-arrow-up"></i></a>
+                </div>
+                <p class="status-tag">Currently open for <span class="accent-green">Junior Developer</span> roles in
+                    Oregon & Remote.</p>
+            </div>
+
+        </footer>
+
+        <script src="scripts.js"></script>
 </body>
 
 </html>
