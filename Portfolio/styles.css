@@ -29,7 +29,7 @@
     --hero-name-hover: #282a36;
     --hero-name-shadow: rgba(98, 114, 164, 0.3);
     --nav-bg: rgba(248, 248, 242, 0.85);
-    --accent-purple: #6272a4;
+    --accent-purple: #6b21a8;
     --accent-green: #27ae60;
     --nav-bg: rgba(248, 248, 242, 0.85);
     --accent-purple: #6272a4;
@@ -53,7 +53,6 @@ body {
     background-attachment: fixed;
     min-height: 100vh;
     margin: 0px;
-    transition: background-color 0.5s ease, color 0.5s ease;
 }
 
 body::before {
@@ -82,11 +81,6 @@ p {
         color 0.5s ease,
         border-color 0.5s ease,
         box-shadow 0.5s ease,
-        transform 0.3s ease;
-}
-
-.top-bar {
-    transition: background 0.5s ease, border-bottom 0.5s ease, box-shadow 0.5s ease;
 }
 
 a {
@@ -127,6 +121,14 @@ h1,
 h2,
 h3 {
     color: var(--text-header);
+}
+
+.no-transition {
+    -webkit-transition: none !important;
+    -moz-transition: none !important;
+    -ms-transition: none !important;
+    -o-transition: none !important;
+    transition: none !important;
 }
 
 p {
